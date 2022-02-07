@@ -7,10 +7,11 @@
     display: grid;
     grid-template-areas: 
     "nav"
+    "card"
     "container"
     "content1"
     "footer";
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 nav{
     background-color: #A7BC5B;
@@ -50,4 +51,9 @@ nav{
 body{
     background-color: #FFFFFF;
     box-sizing: border-box;
+}
+
+.card{
+    grid-area: card;
+    float: right;
 }
