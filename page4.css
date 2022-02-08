@@ -53,5 +53,6 @@ body{
 
 .card{
     grid-area: card;
+    text-align: center;
 
 }
