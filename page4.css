@@ -54,5 +54,19 @@ body{
 .card{
     grid-area: card;
     text-align: center;
+}
 
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.shop-pics{
+    display:grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr) );
 }
