@@ -68,10 +68,17 @@ body{
 .card{
     text-align: center;
     background-color: #A7BC5B;
+    height: 500px;
 }
 
 h5{
     text-align: center;
     color: white;
     text-decoration: underline;
+}
+
+.grid-pics{
+    display:grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr) );
 }
